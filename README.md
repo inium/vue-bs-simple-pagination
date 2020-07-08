@@ -24,10 +24,10 @@ Vue.component('vue-bs-simple-pagination', vueBsSimplePagination);
 
 ```html
 <vue-bs-simple-pagination
-		:current-page="{CURRENT_PAGE_NUM}"
-  	:last-page="{LAST_PAGE_NUM}"
-  	:base-path="{BASE_PATH}"
-  	:query-page-name="page"
+    :current-page="{CURRENT_PAGE_NUM}"
+    :last-page="{LAST_PAGE_NUM}"
+    :base-path="{BASE_PATH}"
+    :query-page-name="page"
     :num-of-elements="10">
 </vue-bs-simple-pagination>
 ```
